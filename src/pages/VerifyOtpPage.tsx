@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { KeyRound, ArrowRight, Loader2, Mail, Smartphone } from 'lucide-react';
+import { ArrowRight, Loader2, Mail, Smartphone } from 'lucide-react';
 import { useVerifyOtpMutation } from '../store/api/authApi';
 import { useDispatch, useSelector } from 'react-redux';
 import { setCredentials } from '../store/slices/authSlice';
